@@ -7,6 +7,12 @@ const ITEMS = [
   { id: "tomato", emoji: "🍅", label: "トマト" },
   { id: "clock",  emoji: "🕐", label: "とけい" },
   { id: "egg",    emoji: "🥚", label: "たまご" },
+  { id: "flower", emoji: "🌷", label: "おはな" },
+  { id: "star",   emoji: "⭐", label: "ほし" },
+  { id: "car",    emoji: "🚗", label: "くるま" },
+  { id: "fish",   emoji: "🐟", label: "さかな" },
+  { id: "house",  emoji: "🏠", label: "おうち" },
+  { id: "heart",  emoji: "💛", label: "ハート" },
 ];
 
 const MAX = 20;
@@ -158,7 +164,9 @@ const styles = {
     flexDirection: "column",
     alignItems: "center",
     gap: "4px",
-    padding: "10px 14px",
+    width: "clamp(72px, 19vw, 92px)",
+    minHeight: "74px",
+    padding: "8px 10px",
     border: "3px solid #f0c080",
     borderRadius: "16px",
     background: "#fffdf5",
